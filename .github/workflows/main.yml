@@ -34,3 +34,12 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+
+      -name: Get version of php
+        run: |
+          php --version
+
+      -name: Get version of python
+        run: |
+          python --version
+
