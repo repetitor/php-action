@@ -36,12 +36,12 @@ jobs:
           echo test, and deploy your project.
 
       # Runs ...
-      -name: Get version of php
+      - name: Get version of php
         run: |
           php --version
 
       # Runs ...
-      -name: Get version of python
+      - name: Get version of python
         run: |
           python --version
 
